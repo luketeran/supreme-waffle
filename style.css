@@ -1,0 +1,272 @@
+/* This is for the whole website-----------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+.navigation{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    background: black;
+    color: white;
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.name{
+    float:left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navList{
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navList ul {
+    list-style-type: none;
+}
+
+#navList li{
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+#navList a{
+    color:yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-style: solid;
+    padding: 5px;
+    
+}
+
+#navList a:hover{
+    color: Blue;
+}
+
+.footerContainer{
+    width: 100%;
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+
+
+
+}
+
+.footerContainer a{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+form{
+    color: white
+}
+#footerEmail{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footerEmail ::placeholder{
+    color:#b1b1b1;
+
+}
+
+#footerButton{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: yellow;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+
+}
+
+#footerButton:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: all  0.5s ease-out;
+    color: white
+}
+
+
+
+/* This is for the Home page-----------------------------------------------------*/
+#Home {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-image: url(home-page-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+#homeP1{
+    width: 50%;
+    font-size: 4rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
+
+
+/* This is for the About page------------------------------------------------------*/
+
+#about {
+    background:#6e6edb;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#introduction{
+    margin-top: 50px;
+}
+
+#box1{
+    float:left;
+    margin-left:10%;
+    width: 40%;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+#box2{
+    float:right;
+    margin-right:10%;
+    width: 20%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#box3{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+
+
+
+/* This is for the portfolio page*/
+#portfolio {
+    background: url("portfolio-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+
+#portfolioContainer{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#jump{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+#jump a{
+
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+}
+
+#primary h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+#portfolioBox1{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#secondary{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+#secondary h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+#poly{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#poly h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+#work{
+    font-size: 30px;
+    padding-bottom: 50px;
+    line-height: 1.3;
+}
+
+#work h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+#work  h2{
+    padding-bottom: 20px;
+}
